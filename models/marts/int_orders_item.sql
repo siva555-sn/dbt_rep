@@ -3,6 +3,7 @@ select
    line_item.order_item_key,
    line_item.partkey,
    line_item.linenumber,
+   line_item.extendedprice,
    orders.orderkey,
    orders.order_date,
    orders.customerkey,
